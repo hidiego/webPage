@@ -1,17 +1,11 @@
 img {
-  position: absolute;
-  top: 50%;
-  left: 90%;
-  height: 80px;
+  height: inherit;
   border-radius: 1000px;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-  transition: left 0.5s, height 0.5s, top 0.5s;
 }
 
 /*
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
 */
 
 @media (min-width: 1281px) {
@@ -52,15 +46,7 @@ img {
 
 @media (min-width: 481px) and (max-width: 767px) {
   //CSS
-  img {
-    top: 100%;
-    left: 50%;
-    height: 150px;
-    // SHADOW
-  -webkit-box-shadow: 6px 6px 5px -3px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 6px 6px 5px -3px rgba(0, 0, 0, 0.5);
-  box-shadow: 6px 6px 5px -3px rgba(0, 0, 0, 0.5);
-  }
+  
 }
 
 /*
@@ -70,10 +56,6 @@ img {
 
 @media (max-width: 480px) {
   img {
-    top: 100%;
-    left: 50%;
-    height: 180px;
-
     // SHADOW
   -webkit-box-shadow: 6px 6px 3px -3px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 6px 6px 3px -3px rgba(0, 0, 0, 0.5);
