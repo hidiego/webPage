@@ -14,7 +14,7 @@ import { AvatarComponent } from './header/avatar/avatar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

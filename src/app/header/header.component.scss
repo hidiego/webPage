@@ -9,7 +9,7 @@
   background-color: var(--primary-color);
   color: var(--primary-text-color);
   font-weight: bold;
-  transition: height 0.5s;
+  transition: height 1s;
 }
 
 h1 {
@@ -17,9 +17,10 @@ h1 {
   top: 50%;
   left: 15%;
   transform: translate(-50%, -50%);
-  transition: top 0.5s, left 0.5s, font-size 0.5s;
   margin: 0;
   padding-left: 2rem;
+  transition: top 0.8s, left 0.8s, font-size 0.8s;
+  user-select: none;
 }
 
 app-avatar {
@@ -30,7 +31,7 @@ app-avatar {
   border-radius: 1000px;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
-  transition: left 0.5s, height 0.5s, top 0.5s;
+  transition: left 0.8s, height 0.8s, top 0.8s;
 }
 
 /*
@@ -73,6 +74,18 @@ app-avatar {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   //CSS
+  .main-header {
+    height: 60px;
+  }
+
+  h1 {
+    font-size: 20px;
+    left: 10%;
+  }
+
+  app-avatar {
+    height: 35px;
+  }
 }
 
 /*
@@ -82,6 +95,18 @@ app-avatar {
 
 @media (min-width: 481px) and (max-width: 767px) {
   //CSS
+  .main-header {
+    height: 60px;
+  }
+
+  h1 {
+    font-size: 20px;
+    left: 10%;
+  }
+
+  app-avatar {
+    height: 35px;
+  }
 }
 
 /*
@@ -96,7 +121,7 @@ app-avatar {
     justify-content: center;
     align-items: center;
   }
-  h1{
+  h1 {
     text-align: center;
     width: 100%;
     font-size: 48px;
