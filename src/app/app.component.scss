@@ -1,3 +1,10 @@
-div{
-    height: 900px;
+div {
+  height: 900px;
+}
+
+app-button {
+  position: fixed;
+  bottom: 15px;
+  left: 2.5%;
+  transform: translateX(-50%);
 }

@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 html body {
   margin: 0;
@@ -11,13 +11,13 @@ body {
   flex-direction: column;
   height: 100%;
   background-color: var(--background-color);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 :root {
-  --primary-color: #1F1F1F;
+  --primary-color: #1f1f1f;
+  --primary-color-1: #2e2e2e;
   --primary-text-color: rgb(238, 238, 238);
   --primary-contrast: rgb(161, 0, 135);
   --background-color: #121212;
 }
-
