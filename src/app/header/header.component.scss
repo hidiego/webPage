@@ -10,6 +10,7 @@
   color: var(--primary-text-color);
   font-weight: bold;
   transition: height 1s;
+  z-index: 1;
 }
 h1 {
   position: absolute;
@@ -115,7 +116,7 @@ app-avatar {
 
 @media (max-width: 480px) {
   .main-header {
-    height: 250px;
+    height: 150px;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -123,7 +124,7 @@ app-avatar {
   h1 {
     text-align: center;
     width: 100%;
-    font-size: 48px;
+    font-size: 40px;
     top: 40%;
     left: 50%;
     padding-left: 0;
@@ -132,6 +133,6 @@ app-avatar {
   app-avatar {
     top: 100%;
     left: 50%;
-    height: 160px;
+    height: 100px;
   }
 }

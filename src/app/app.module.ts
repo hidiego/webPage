@@ -7,9 +7,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { AvatarComponent } from './header/avatar/avatar.component';
 import { ButtonComponent } from './components/button/button.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, AvatarComponent, ButtonComponent],
+  declarations: [AppComponent, HeaderComponent, AvatarComponent, ButtonComponent, WelcomeComponent],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent]
